@@ -1,0 +1,63 @@
+
+html,body
+{
+	margin: 0px;
+	height: 100%
+}
+/*Header*/
+header
+{
+	background: orange;
+	height: 5%;
+	display: block;
+}
+header li
+{
+	float: left;
+	list-style-type: none;
+	margin-left: 5%;
+}
+/*Header*/
+nav
+{
+background: seagreen;
+display: block;
+height: 5%;
+}
+nav li
+{
+	float: left;
+	margin-left: 5%;
+	list-style-type:none;
+}
+nav ul
+{
+margin-left: 50%;
+margin-top: -33;
+}
+nav a
+{
+	color: #fff;
+	text-decoration: none;
+}
+main
+{
+	background-image: url(../images/pexels4.jpg);
+
+	background-repeat: no-repeat;
+	height: 85%;
+	text-align: center;
+	display: block;
+	font-size: 35px;
+	animation: imageSlideshow 40s linear infinite;
+	color: white;
+}
+
+footer
+{
+background: seagreen;
+height: 5%;
+text-align: center;
+color: white;
+}
+
